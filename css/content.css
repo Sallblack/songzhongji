@@ -1,0 +1,91 @@
+.content{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: none;
+}
+.stt{
+  background: url(../img/stt.png) no-repeat;
+  background-size: 100% 100%;
+  width: 78.593755%;
+  height: 17.34155%;
+  position: absolute;
+  top: 13.20423%;
+  left: 12.1875%;
+}
+.demond1{
+  background: url(../img/demond.png) no-repeat;
+  background-size: 100% 100%;
+  width: 8.28125%;
+  height: 4.84155%;
+  position: absolute;
+  top: 17.176%;
+  right: 10.3125%;
+}
+.shelf_bg{
+  background: url(../img/shelf_bg.png) no-repeat;
+  background-size: 100% 100%;
+  width: 78.125%;
+  height: 42.25352%;
+  position: absolute;
+  top: 31.33803%;
+  left: 11.25%;
+}
+.shelf{
+  background: url(../img/shelf.png) no-repeat;
+  background-size: 100% 100%;
+  width: 20.15625%;
+  height: 10.47535%;
+  position: absolute;
+  bottom: 14.52465%;
+  left: 10.3125%;
+  /*z-index: 100;*/
+}
+.sofa{
+  background: url(../img/sofa.png) no-repeat;
+  background-size: 100% 100%;
+  width: 42.8125%;
+  height: 8.36268%;
+  position: absolute;
+  bottom: 14.43662%;
+  left: 32.34375%;
+}
+.lamp{
+  background: url(../img/lamp.png) no-repeat;
+  background-size: 100% 100%;
+  width: 11.40625%;
+  height: 18.83803%;
+  position: absolute;
+  bottom: 14.26056%;
+  right: 13.59375%;
+  z-index: 999;
+}
+.finger{
+  background: url(../img/p2_shou.png) no-repeat;
+  background-size: 100% 100%;
+  width: 26.5625%;
+  height: 10.13028%;
+  position: absolute;
+  bottom: 13%;
+  right: 11%;
+  -webkit-animation: jt 1s linear infinite;
+  animation: jt 1s linear infinite;
+}
+@-webkit-keyframes jt {
+  0%{
+    -webkit-opacity: 1;
+  }
+  100%{
+    -webkit-opacity: 0;
+    -webkit-transform: translateY(-100%);
+  }
+}
+@keyframes jt {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}

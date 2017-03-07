@@ -1,0 +1,154 @@
+.problem{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.head1_bg{
+  background: url(../img/head1_bg.png);
+  background-size:100% 100%;
+  width: 36.40625%;
+  height: 12.5%;
+  position: absolute;
+  top: 21.65493%;
+  left: 4.21875%;
+}
+.head2_bg{
+  background: url(../img/head2_bg.png);
+  background-size: 100% 100%;
+  width: 33.75%;
+  height: 20.24648%;
+  position: absolute;
+  top: 25.08803%;
+  left: 36.875%;
+}
+.head3_bg{
+  background: url(../img/head3_bg.png);
+  background-size: 100% 100%;
+  width: 20.78125%;
+  height: 15.58099%;
+  position: absolute;
+  top: 20.59859%;
+  right: 11.875%;
+}
+.title{
+  background: url(../img/test_text.jpg);
+  background-size: 100% 100%;
+  width: 63.125%;
+  height: 5.89789%;
+  position: absolute;
+  top: 38.1162%;
+  left: 18.28125%;
+}
+ul{
+  width: 73.59375%;
+  /*height: 2.55282%;*/
+  position: relative;;
+  top: 49.47183%;
+  left: 14.53125%;
+  font-size: 1.4rem;
+}
+ul li:nth-child(1){
+  line-height: 2rem;
+  answer
+}
+ul li:nth-child(2){
+  position: absolute;
+  left: 2rem;
+  top: 5rem;
+  text-align: left;
+}
+ul li:nth-child(3){
+  position: absolute;
+  left: 13rem;
+  top: 5rem;
+  text-align: left;
+}
+ul li:nth-child(4){
+  position: absolute;
+  top: 8rem;
+  left: 2rem;
+  text-align: left;
+}
+.change:after{
+  display: block;
+  content:'';
+  position:absolute;
+  top:0;
+  left:-26px;
+  width:20px;height:20px;
+  background:url('../img/sign_check_22.834951456311px_1185685_easyicon.net.png');
+  background-size:100% 100%;
+}
+.fuck{
+  color:#adadad;
+}
+.next_btn{
+  background: url(../img/next_btn.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 36.875%;
+  height: 7.83451%;
+  position: absolute;
+  top: 78.7993%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.fruit{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /*display: none;*/
+}
+.nanny,.sister,.mrs{
+  background: url(../img/1-3.png) no-repeat;
+  background-size: 100% 100%;
+  width: 71.09375%;
+  height: 62.67606%;
+  position: absolute;
+  top: 17.60563%;
+  left: 15.15625%;
+}
+.sister{
+  background: url(../img/4-5.png) no-repeat;
+  background-size: 100% 100%;
+}
+.mrs{
+  background: url(../img/5-6.png) no-repeat;
+  background-size: 100% 100%;
+}
+.bg1{
+  background: url(../img/scroll_btn.png) no-repeat;
+  background-size: 100% 100%;
+  width: 28.59375%;
+  height: 6.16197%;
+  position: absolute;
+  top: 69.54225%;
+  left: 19.40625%;
+}
+.zaogao{
+  background: url(../img/zaogao.png) no-repeat;
+  background-size: 100% 100%;
+  width: 28.59375%;
+  height: 6.16197%;
+  position: absolute;
+  top: 69.54225%;
+  left: 52.40625%;
+}
+.shadow{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -100%;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  /*background-size: 100% 100%;*/
+  z-index: 101;
+}
+.share{
+  background: url(../img/share.png) no-repeat;
+  background-size: 100% 100%;
+  width: 68.125%;
+  height: 25.88028%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

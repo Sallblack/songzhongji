@@ -1,0 +1,144 @@
+/**{margin: 0;padding: 0;}*/
+html{font-size: calc(100vw/32);height: 100%;width: 100%;}
+body{
+  background: url(../img/b1.jpg) no-repeat;
+  background-size:100% 100%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.home{
+  width: 100%;
+  height: 100%;
+  /*overflow-x: hidden;
+  text-align: center;*/
+  position: relative;
+}
+.header{
+  background: url(../img/header.png)  no-repeat;
+  background-size:100% 100%;
+  width: 77.34375%;
+  height: 17.34155%;
+  position: absolute;
+  top: 12.14789%;
+  left: 13.75%;
+  -webkit-animation: fd 1s linear infinite;
+  animation: fd 1s linear infinite;
+}
+.heart{
+  background: url(../img/heart.png) no-repeat;
+  background-size: 100% 100%;
+  width: 8.90625%;
+  height: 4.6655%;
+  position: absolute;
+  top: 12.14789%;
+  left: 63.28125%;
+  -webkit-animation: fd 1s linear infinite;
+}
+.head4{
+  background: url(../img/head4.png) no-repeat;
+  background-size: 100% 100%;
+  width: 14.6875%;
+  height: 8.27465%;
+  position: absolute;
+  top: 20.86268%;
+  left: 20%;
+  -webkit-animation: fd 1s linear infinite;
+  animation: fd 1s linear infinite;
+}
+.head1{
+  background: url(../img/head1.png) no-repeat;
+  background-size: 100% 100%;
+  width: 25%;
+  height: 11.70775%;
+  position: absolute;
+  top: 30.01761%;
+  left: 13.75%;
+  -webkit-animation: fd 1s linear infinite;
+  animation: fd 1s linear infinite;
+}
+.head2{
+  background: url(../img/head2.png) no-repeat;
+  background-size: 100% 100%;
+  width: 22.65625%;
+  height: 13.55634%;
+  position: absolute;
+  top: 29.57746%;
+  left: 42.1875%;
+  -webkit-animation: fd 1s linear infinite;
+  animation: fd 1s linear infinite;
+}
+.head3{
+  background: url(../img/head3.png) no-repeat;
+  background-size: 100% 100%;
+  width: 13.90625%;
+  height: 10.47535%;
+  position: absolute;
+  top: 28.16901%;
+  left: 69.375%;
+  -webkit-animation: fd 1s linear infinite;
+  animation: fd 1s linear infinite;
+}
+.song{
+  background: url(../img/song.png) no-repeat;
+  background-size: 100% 100%;
+  width: 80.9375%;
+  height: 47.77993%;
+  position: absolute;
+  top: 36.44366%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.page1{
+  background: url(../img/page1_btn.png) no-repeat;
+  background-size: 100% 100%;
+  width: 36.875%;
+  height: 7.83451%;
+  position: absolute;
+  bottom: 9.94718%;
+  left: 32.03125%;
+  -webkit-animation: fd 1s linear infinite;
+}
+.demond{
+  background: url(../img/demond.png) no-repeat;
+  background-size: 100% 100%;
+  width: 8.28125%;
+  height: 4.84155%;
+  position: absolute;
+  bottom: 12.14789%;
+  right: 19.0625%;
+  -webkit-animation: fd 1s linear infinite;
+  animation: fd 1s linear infinite;
+}
+.face{
+  background: url(../img/face.png) no-repeat;
+  background-size: 100% 100%;
+  width: 40.3125%;
+  height: 28.00704%;
+  position: absolute;
+  top: 36.19859%;
+  right: 10.3125%;
+  -webkit-animation: fly 1s linear infinite;
+  animation: fly 1s linear infinite;
+}
+@-webkit-keyframes fly {
+  25%{-webkit-transform: rotate(-10deg);}
+  75%{-webkit-transform: rotate(10deg);}
+  100%{-webkit-transform: rotate(0deg);}
+}
+@keyframes fly {
+  25%{transform: rotate(-10deg);}
+  75%{transform: rotate(10deg);}
+  100%{transform: rotate(0deg);}
+}
+@-webkit-keyframes fd {
+  /*0%{transform: scale(1);}*/
+  50%{-webkit-transform: scale(1.05);}
+  100%{-webkit-transform: scale(1);}
+}
+@keyframes fd {
+  /*0%{transform: scale(1);}*/
+  50%{transform: scale(1.05);}
+  100%{transform: scale(1);}
+}
